@@ -11,7 +11,8 @@ import requests
 import urllib.request
 
 class gather_data():
-    def __inti__(self, Auth):
+    
+    def __init__(self, Auth):
         self.Auth = Auth
     
     
