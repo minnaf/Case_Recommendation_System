@@ -40,12 +40,14 @@ class gather_data():
         temp = r.json()
         next_url = temp['next']
         
+        
         while next_url != None:
             r = requests.get(f'{next_url}', headers={'Authorization': f'Token f{self.Auth}'})
             print(r.status_code)
             temp = r.json()
             self.into_mongo(temp)
             next_url = temp['next']
+            print(next_url)
         
         
         
