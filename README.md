@@ -62,7 +62,6 @@ TSNE plot of words used in the legal corpus:
 
 Using my engineered features, I generated a recommendation engine. The inputs for the engine are text from the case (ideally the first couple pages of an arrest report or criminal charge, docuements the defendant is likely to possess), and the date of the case. The engine (hosted on a local plotly dash app) then returns a list of the top 10 cases including the name and the majority opinion. 
 
-G
   <p align="center">
         <img src="Screen Shot 2019-09-11 at 2.23.52 PM.png">
     </p> 
