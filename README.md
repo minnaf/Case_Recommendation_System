@@ -45,13 +45,13 @@ Other features were considered, but I ulimtately decided I wanted an engine that
 TSNE plot of words used in the legal corpus: 
 
  <p align="center">
-        <img src="TSNE.html">
+        <img src="Screen Shot 2019-09-24 at 9.38.49 PM.png">
     </p> 
     
  
  Topic Analysis: 
   <p align="center">
-        <img src="lda_topic_analysis_8.html">
+        <img src="Screen Shot 2019-09-24 at 9.39.00 PM.png">
     </p> 
     
 
